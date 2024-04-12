@@ -1,0 +1,20 @@
+    </main>
+
+
+    <footer id="podnozje">
+        <address>
+            <a href="https://creativecommons.org/about/cclicenses/">
+                <img src="../Dokumenti/Slike/by.png" width="120" height="50" alt="CC BY">
+            </a>
+            &copy; 2023., Roko Horvat
+            <a href="mailto:%20rhorvat21@foi.hr">rhorvat21@foi.hr</a>
+            <a href="tel:+385994234233">+385994234233</a>
+            <a href="https://validator.w3.org/nu/?doc=https://spider.foi.hr/OWT/2023/zadaca_03/rhorvat21/Html/cjenik.html">
+            <img src="../Dokumenti/Slike/HTML5.png" width="100" height="100" alt="HTML5">
+            </a>
+        </address>
+    </footer>
+    <script src="/javascript"></script>
+</body>
+
+</html>

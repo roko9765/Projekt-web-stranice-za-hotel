@@ -1,0 +1,52 @@
+[
+  { "Usluga": "", 
+    "Cijena": "", 
+    "Trajanje": "" 
+},
+  { "": "Doručak po izboru",
+    "": "350 HRK", 
+    "": "1 jutro" 
+},
+  { "": "Paket polupansiona", 
+    "": "550 HRK", 
+    "": "1 dan" 
+},
+  { "": "Paket puni pansion",
+    "": "750 HRK", 
+    "": "1 dan" 
+},
+  {
+    "": "Romantična večera za dvoje",
+    "": "450 HRK",
+    "": "1 večer"
+  },
+  {
+    "": "Vožnja brodom po jezeru",
+    "": "200 HRK",
+    "": "1 sat"
+  },
+  {
+    "": "Obilazak lokalnih muzeja",
+    "": "300 HRK",
+    "": "2 sata"
+  },
+  { "": "Najam bicikala",
+    "": "100 HRK", 
+    "": "Cijeli dan" 
+},
+  {
+    "": "Koktel po izboru u hotelskom baru",
+    "": "50 HRK",
+    "": "/"
+  },
+  {
+    "": "Posjet kazališnoj predstavi",
+    "": "150 HRK",
+    "": "2 sata"
+  },
+  {
+    "": "Relaksacijska masaža u wellness centru",
+    "": "250 HRK",
+    "": "1 sat"
+  }
+]

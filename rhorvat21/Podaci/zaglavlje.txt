@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Cjenik usluga</title>
+    <meta charset="UTF-8">
+    <meta name="autor" content="autor ove stranice je Roko Horvat">
+    <meta name="opis" content="Ovo je Cjenik.">
+    <meta name="ključne riječi" content="cjenik, novac">
+    <link rel="stylesheet" href="/Css/rhorvat21.css" type="text/css">
+    <link rel="stylesheet" href="/Css/rhorvat21_responzivni_dizajn.css" type="text/css">
+
+</head>
+
+
+
+<body>
+    <header id="naslov">
+        <h1>Cjenik</h1>
+        <h4>_____________________________</h4>
+        <a href="/index">
+            <img src="../Dokumenti/Slike/thewind.png" id="wind" alt="hotel_wind" height="200" width="300">
+        </a>
+    </header>
+    <nav id="link">
+        <a href="/index">Početna</a>
+        <a href="/autor">Autor</a>
+        <a href="/dokumentacija">Dokumentacija</a>
+        <a href="/cjenik#cjenik" id="trenutacna">Cjenik usluga</a>
+        <a href="/galerija#figura">Galerija</a>
+        <a href="/interaktivna_slika#galebina">Interaktivna slika</a>
+        <a href="/karta#karta">karta</a>
+        <a href="/obrazac_kontakt#forma">Obrazac za kontakt</a>
+        <a href="/obrazac_sobe#forma_sobe">Obrazac za rezervaciju sobe</a>
+        <a href="/video#video">Video</a>
+        <a href="/sauna">Ponuda - popust na saunu</a>
+        <a href="/dorucak">Ponuda - besplatan doručak</a>
+        <a href="/besplatna_masaza">Ponuda - besplatna masaža</a>
+        <a href="/api/rezervacije">API rezervacije</a>
+        <a href="/dinamicna">Dinamicna</a>
+        <h3>_____________________________</h3> <br>
+    </nav>
+
+    <main>
+        <br>

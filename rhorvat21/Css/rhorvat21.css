@@ -1,0 +1,316 @@
+html{
+  background-image: url("../Dokumenti/Slike/naslovnapozadina-min.png");
+}
+
+#pozadina { 
+    width: 100%;
+
+  }
+
+/* .naslov {
+    background-image: url("../Dokumenti/Slike/naslovnapozadina-min.png");
+    width: 100%;
+  } */
+
+.hhh{
+  font-size: 3cm;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+.hhhh{
+  font-weight: bold;
+  font-size: 2cm;
+  overflow-x: hidden;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1cm;
+  overflow-x: hidden;
+}
+
+img{
+  overflow-x: hidden;
+}
+
+.podnaslov{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  overflow-x: hidden;
+}
+
+#autor{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #171717;
+  font-size: medium;
+}
+
+/*pseudoklasa*/
+a:hover {
+    color: darkgoldenrod;
+    
+}
+
+input[type="time"] {
+  border: 1px solid black;
+}
+
+/*pseudoklasa*/
+.interaktivna::before{
+  content: "Interaktivna područja:";
+}
+
+/*spojeni selektor*/
+.interaktivna p {
+  color: darkblue;
+}
+
+/*Prelijevanje*/
+.odlomak{
+  width: 800px;
+  height: 70px;
+  border: 1px solid black;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+.interaktivna {
+  margin: 1cm;
+  content: none;
+  padding: 1px;
+  border: 2px solid;
+  border-color: #171717;
+  border-style: dotted;
+  display: inline-block;
+}
+
+#bordermasaza{
+  margin: 1cm;
+  content: none;
+  padding: 1px;
+  border: 2px solid;
+  border-color: #171717;
+  border-style: dashed;
+  display: inline-block;
+}
+
+h1 ~ h3 {
+  font-weight: bold;
+}
+
+h1 + h3 {
+  margin-top: 10px;
+}
+
+ul > li {
+  list-style-type: disc;
+}
+
+nav a {
+  color: #171717;
+}
+
+/*povecavanje slika prilikom hovera*/
+.galerija:hover{
+  width: 500px;
+  height: 250px;
+}
+
+.galerija1:hover{
+  width: 500px;
+  height: 350px;
+}
+
+
+/*grid*/
+.sauna {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav content"
+    "aside content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 100px 1fr 1fr 100px;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.aa {
+  grid-area: header;
+  background-color: goldenrod;
+}
+
+.aaa {
+  grid-area: nav;
+  background-image: url("../Dokumenti/Slike/masaza.jpg");
+}
+
+.aaaa {
+  grid-area: content;
+  background-image: url("../Dokumenti/Slike/gal1.jpeg");
+}
+
+.aaaaa {
+  grid-area: aside;
+  background-image: url("../Dokumenti/Slike/dorucak.jpeg");
+}
+
+.aaaaaa {
+  grid-area: footer;
+  background-color: goldenrod;
+}
+
+
+/*relativno pozicioniranje*/
+#iksa{
+  position:absolute;
+  left: 260px;
+}
+
+#figura{
+  position:relative;
+  right: 40px;
+}
+
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+nav{
+  text-align: center;
+  
+}
+
+#link{
+  font-size: 25px;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+
+#karta{
+  border: 0;
+}
+ #crno{
+  text-align: center;
+ }
+
+ #uvijek{
+  text-align: center;
+ }
+
+
+
+ table, th, td{
+  border: 1px solid;
+  padding: 10px;
+ }
+
+ thead{
+  background-color: burlywood;
+ }
+
+ tbody tr:nth-child(odd) {
+  background-color: gray;
+}
+
+tbody tr:nth-child(even) {
+  background-color: burlywood;
+}
+
+ #tablica1:hover{
+  color: aquamarine;
+ 
+ }
+ 
+ #tablica2:hover{
+  color: greenyellow;
+ 
+ }
+
+ #tablica3:hover{
+  color: bisque;
+ 
+ }
+
+ #tablica4:hover{
+  color: aqua;
+ 
+ }
+
+ #tablica5:hover{
+  color: lightcoral;
+ 
+ }
+
+ #tablica6:hover{
+  color: lightblue;
+ 
+ }
+
+ #tablica7:hover{
+  color: lavender
+ 
+ }
+
+ #tablica8:hover{
+  color: burlywood
+ 
+ }
+
+ #naslov {
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  overflow-x: hidden;
+}
+
+#podnozje {
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  overflow-x: hidden;
+}
+
+#wind{
+  width: 700px;
+  height: 500px;
+}
+
+#trenutacna{
+  color: red;
+}
+
+
+.error-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+
+.error-field {
+  border: 1px solid red;
+}

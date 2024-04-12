@@ -1,0 +1,84 @@
+/* Stilovi za mali ekran (ispod 480px) */
+@media screen and (max-width: 480px) {
+
+
+    body {
+        background-image: url("../Dokumenti/Slike/naslovnapozadina-min.png");
+        color: #000;
+      }
+    
+
+    input, select, textarea {
+      width: 100%;
+    }
+    
+    
+
+   /* table td:nth-child(n+2) {
+      display: none;
+    } */
+
+    .klasaTablice td:nth-child(n+2) {
+      display: none;
+    }
+
+ 
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }    
+
+    #figura{
+        width: 100%;
+    }
+
+    nav a:nth-last-child(-n + 14) {
+        display: none;
+      }
+
+
+
+/*Javascript 2. zadatak*/
+      .prikazi-sve-stupce td{
+        display: table-cell;
+      }
+
+
+
+
+      nav {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: underline;
+      }
+      nav:hover a:nth-child(n) {
+        display: contents;
+      }
+  }
+  
+  /* Stilovi za srednji ekran (480px - 1024px) */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    
+
+    body, header, footer {
+      background-color: lightgray;
+      color: #fff;
+    }
+  }
+  
+  /* Stilovi za veliki ekran (preko 1024px) */
+  @media screen and (min-width: 1025px) {
+
+    
+    body {
+      background-image: url("../Dokumenti/Slike/naslovnapozadina-min.png");
+      color: #000;
+    }
+    .naslov {
+    background-image: url("../Dokumenti/Slike/naslovnapozadina-min.png");
+    width: 100%;
+    } 
+  }
+  

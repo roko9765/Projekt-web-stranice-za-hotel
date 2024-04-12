@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Obrazac za rezervaciju sobe</title>
+    <meta charset="UTF-8">
+    <meta name="autor" content="autor ove stranice je Roko Horvat">
+    <meta name="opis" content="Ovo je obrazac za rezervaciju sobe.">
+    <meta name="ključne riječi" content="obrazac, rezervacija, soba">
+    <link rel="stylesheet" href="../Css/rhorvat21.css" type="text/css">
+    <link rel="stylesheet" href="../Css/rhorvat21_responzivni_dizajn.css" type="text/css">
+
+</head>
+
+<body>
+    <header id="naslov">
+        <h2>Obrazac za rezervaciju sobe</h2>
+        <h4>_____________________________</h4>
+            <a href="../Html/index.html">
+                <img src="../Dokumenti/Slike/thewind.png" id="wind" alt="hotel_wind" height="200" width="300">
+            </a>
+        </header>
+    <nav id="link">
+        <a href="../Html/index.html">Početna</a>
+        <a href="../Dokumentacija/autor.html">Autor</a>
+        <a href="../Dokumentacija/dokumentacija.html">Dokumentacija</a>
+        <a href="../Html/cjenik.html#cjenik">Cjenik usluga</a>
+        <a href="../Html/galerija.html#figura">Galerija</a>
+        <a href="../Html/interaktivna_slika.html#galebina">Interaktivna slika</a>
+        <a href="../Html/karta.html#karta">karta</a>
+        <a href="../Html/obrazac_kontakt.html#forma">Obrazac za kontakt</a>
+        <a href="../Html/obrazac_sobe.html#forma_sobe" id="trenutacna">Obrazac za rezervaciju sobe</a>
+        <a href="../Html/video.html#video">Video</a>
+        <a href="../Html/sauna.html">Ponuda - popust na saunu</a>
+        <a href="../Html/dorucak.html">Ponuda - besplatan doručak</a>
+        <a href="../Html/besplatna_masaza.html">Ponuda - besplatna masaža</a>
+        <a href="../rezervacije.js">API rezervacije</a>
+        <a href="../dinamicna">Dinamicna</a>
+        <h3>_____________________________</h3> <br>
+    </nav>
+    <main>
+        <br>
+        <form novalidate method="POST" name="forma_sobe" id="forma_sobe" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php">
+        <fieldset>
+            <legend>Informacije o rezervaciji:</legend>
+        <label for="imePrezime">Ime i prezime</label>
+        <input type="text" name="imePrezime" id="imePrezime" required> <br>
+        <label for="Brojmobitela">Broj mobitela</label>
+        <input type="tel" name="Brojmobitela" id="Brojmobitela" required> <br>
+        <label for="Brojosoba">Broj osoba</label>
+        <input type="number" name="Brojosoba" id="Brojosoba" required> <br>
+        <label for="datum">Odaberite datum i vrijeme dolaska</label>
+        <input type="date" name="datum" id="datum" required>
+        <input type="time" name="vrijeme" id="vrijeme" required> <br>
+
+        </fieldset>
+
+            <fieldset>
+                <legend>Informacije vezano za sobu:</legend>
+                <label for="ljubimac">Imate li ljubimca?</label>
+                <input type="radio" name="ljubimac" id="ljubimac" value="Da" required>
+                <label for="ljubimac">Da</label>
+                <input type="radio" name="ljubimac" id="ljubimac2" value="Ne" required>
+                <label for="ljubimac2">Ne</label> <br>
+            <label for="soba">Odaberite vrstu sobe:</label>
+            <select name="soba" id="soba" required>
+                <option>Suita</option>
+                <option>Predsjednička soba</option>
+                <option>Garsonjera</option>
+            </select> <br>
+            <label>Odaberite što želite u sobi(opcionalno):</label>
+            <input type="checkbox" name="ekstra" id="extra" value="Mini bar">Mini bar
+            <input type="checkbox" name="ekstra2" id="extra2" value="Šampanjac">Šampanjac
+            <input type="checkbox" name="ekstra3" id="extra3" value="Crno vino">Crno vino
+            <input type="checkbox" name="ekstra4" id="extra4" value="Bijelo vino">Bijelo vino <br>
+            <button type="submit">Pošalji</button>
+                <button type="reset">Osvježi</button>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer id="podnozje">
+        <address>
+            <a href="https://creativecommons.org/about/cclicenses/">
+                <img src="../Dokumenti/Slike/by.png" width="120" height="50" alt="CC BY">
+            </a>
+            &copy; 2023., Roko Horvat
+            <a href="mailto:%20rhorvat21@foi.hr">rhorvat21@foi.hr</a>
+            <a href="https://validator.w3.org/nu/?doc=https://spider.foi.hr/OWT/2023/zadaca_03/rhorvat21/Html/obrazac_sobe.html">
+            <img src="../Dokumenti/Slike/HTML5.png" width="100" height="100" alt="HTML5">
+            </a>
+        </address>
+    </footer>
+    <script src="/javascript"></script>
+</body>
+
+</html>

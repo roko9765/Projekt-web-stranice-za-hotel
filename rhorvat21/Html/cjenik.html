@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Cjenik usluga</title>
+    <meta charset="UTF-8">
+    <meta name="autor" content="autor ove stranice je Roko Horvat">
+    <meta name="opis" content="Ovo je Cjenik.">
+    <meta name="ključne riječi" content="cjenik, novac">
+    <link rel="stylesheet" href="../Css/rhorvat21.css" type="text/css">
+    <link rel="stylesheet" href="../Css/rhorvat21_responzivni_dizajn.css" type="text/css">
+
+</head>
+
+
+
+<body>
+    <header id="naslov">
+        <h1>Cjenik</h1>
+        <h4>_____________________________</h4>
+        <a href="../Html/index.html">
+            <img src="../Dokumenti/Slike/thewind.png" id="wind" alt="hotel_wind" height="200" width="300">
+        </a>
+    </header>
+    <nav id="link">
+        <a href="../Html/index.html">Početna</a>
+        <a href="../Dokumentacija/autor.html">Autor</a>
+        <a href="../Dokumentacija/dokumentacija.html">Dokumentacija</a>
+        <a href="../Html/cjenik.html#cjenik" id="trenutacna">Cjenik usluga</a>
+        <a href="../Html/galerija.html#figura">Galerija</a>
+        <a href="../Html/interaktivna_slika.html#galebina">Interaktivna slika</a>
+        <a href="../Html/karta.html#karta">karta</a>
+        <a href="../Html/obrazac_kontakt.html#forma">Obrazac za kontakt</a>
+        <a href="../Html/obrazac_sobe.html#forma_sobe">Obrazac za rezervaciju sobe</a>
+        <a href="../Html/video.html#video">Video</a>
+        <a href="../Html/sauna.html">Ponuda - popust na saunu</a>
+        <a href="../Html/dorucak.html">Ponuda - besplatan doručak</a>
+        <a href="../Html/besplatna_masaza.html">Ponuda - besplatna masaža</a>
+        <a href="../rezervacije.js">API rezervacije</a>
+        <a href="../dinamicna">Dinamicna</a>
+        <h3>_____________________________</h3> <br>
+    </nav>
+
+    <main>
+        <br>
+        <table id="cjenik" class="klasaTablice">
+            <caption><i>Cjenik usluga</i></caption>
+            <thead>
+                <tr id="tablica1" class="prikazi-sve-stupce">
+                    <td><b>Vrsta usluge</b></td>
+                    <td class="dodatne-informacije"><b>Cijena</b></td>
+                    <td class="dodatne-informacije"><b>Cijena za više od 3 noćenja</b></td>
+                    <td class="dodatne-informacije"><b>Dostupnost</b></td>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr id="tablica2" class="prikazi-sve-stupce">
+                        <td>Šampanjac</td>
+                        <td class="dodatne-informacije">120€</td>
+                        <td class="dodatne-informacije">100€</td>
+                        <td  class="dodatne-informacije" rowspan="4">10:00 - 24:00</td>
+                    </tr>
+                    <tr id="tablica3" class="prikazi-sve-stupce">
+                        <td>Crno vino</td>
+                        <td  class="dodatne-informacije" colspan="2" id="crno">60€</td>
+                    </tr>
+                    <tr id="tablica4" class="prikazi-sve-stupce">
+                        <td>Bijelo vino</td>
+                        <td  class="dodatne-informacije">50€</td>
+                        <td  class="dodatne-informacije">40€</td>
+                    </tr>
+                    <tr id="tablica5" class="prikazi-sve-stupce">
+                        <td>Mini bar</td>
+                        <td  class="dodatne-informacije">20€</td>
+                        <td  class="dodatne-informacije">Besplatno</td>
+                    </tr>
+                    <tr id="tablica6" class="prikazi-sve-stupce">
+                        <td>Suita</td>
+                        <td  class="dodatne-informacije">320€</td>
+                        <td  class="dodatne-informacije">280€</td>
+                        <td  class="dodatne-informacije" rowspan="3" id="uvijek">Uvijek</td>
+                    </tr>
+                    <tr id="tablica7" class="prikazi-sve-stupce">
+                        <td>Predsjednička soba</td>
+                        <td class="dodatne-informacije">500€</td>
+                        <td class="dodatne-informacije">450€</td>
+                    </tr>
+                    <tr id="tablica8" class="prikazi-sve-stupce">
+                        <td>Garsonjera</td>
+                        <td class="dodatne-informacije">140€</td>
+                        <td class="dodatne-informacije">110€</td>
+                    </tr>
+                </tbody>
+        </table>
+    </main>
+
+
+    <footer id="podnozje">
+        <address>
+            <a href="https://creativecommons.org/about/cclicenses/">
+                <img src="../Dokumenti/Slike/by.png" width="120" height="50" alt="CC BY">
+            </a>
+            &copy; 2023., Roko Horvat
+            <a href="mailto:%20rhorvat21@foi.hr">rhorvat21@foi.hr</a>
+            <a href="https://validator.w3.org/nu/?doc=https://spider.foi.hr/OWT/2023/zadaca_03/rhorvat21/Html/cjenik.html">
+            <img src="../Dokumenti/Slike/HTML5.png" width="100" height="100" alt="HTML5">
+            </a>
+        </address>
+    </footer>
+    <script src="../Jsk/rhorvat21.js"></script>
+</body>
+
+</html>

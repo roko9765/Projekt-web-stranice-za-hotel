@@ -1,0 +1,11 @@
+ [
+  { "Ime i prezime": "Roko Horvat", 
+    "Broj mobitela": "0991234567", 
+    "Broj osoba": "1",
+    "Odaberite datum dolaska": "11/11/2023",
+    "Odaberite vrijeme dolaska": "11:00 AM",
+    "Imate li ljubimca?": "Ne",
+    "Odaberite vrstu sobe": "Suita",
+    "Odaberite što želite u sobi(opcionalno)": "Šampanjac"
+}
+]
